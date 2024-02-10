@@ -15,15 +15,33 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #97BC62;
+    background-image: url(book.jpg);
+    
     height: 100vh;
     width: 100vw;
 }
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+
+}
 .para{
     display: flex;
-    
+    margin-left: 24px;
+    margin-top: 8px;
 
     
+}
+#head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.content{
+    margin-top: 50px;
 }
 .box1{
     border: 2px solid black;
@@ -50,10 +68,24 @@
     background-color: white;
 }
 .allignment{
-    background-color: rgb(37, 211, 211);
     height: 60vh;
     width: 20vw;
     border-radius: 40px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
     
     
+}
+button{
+    width: 15rem;
+    height: 2rem;
+    border: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: black;
+    font-weight: 550;
+    color: white;
+    position: fixed;
+    bottom: 200px;
 }
